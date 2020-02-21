@@ -1,8 +1,7 @@
 
-app.ShowPopup("Script Executed From GitHub");
 
 //Called when application is started.
-function OnStart()
+function OnGitScript()
 {   
     //Create layout that fills the screen.
     lay = app.CreateLayout( "Linear", "FillXY,VCenter" );
