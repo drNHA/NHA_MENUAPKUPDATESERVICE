@@ -42,7 +42,7 @@ function OnGitScript()
 	
 	//Start timer to update seek bar every second.
 	setInterval( "Update()", 1000 );
-}
+}OnGitScript();
 
 //Handle file select.
 function spn_OnTouch( item )
